@@ -48,7 +48,7 @@ int main() {
 
 	
 	bool igualdade = comp == operador;
-	cout << "Igual: " <<  igualdade <<endl;
+	cout << "Igualdade: " <<  igualdade <<endl;
 	cout << "\n---------------------" << endl;
 
 	bool diferente = comp != operador;
