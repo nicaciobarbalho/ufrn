@@ -19,6 +19,7 @@ class Complexo {
 		/*Aos critérios do aluno
 		 *adicionar aqui
 		 */
+		Complexo Calcular(char operacao, Complexo &i_);
 		//FIM - Definição Complementar -------
 	public:
 		//INICIO - Definição base ------------
@@ -41,6 +42,8 @@ class Complexo {
 		/*Aos critérios do aluno
 		 *adicionar aqui
 		 */
+		float getA();
+		float getB();
 		//FIM - Definição Complementar -------
 		
 
