@@ -20,6 +20,10 @@ class Complexo {
 		 *adicionar aqui
 		 */
 		Complexo Calcular(char operacao, Complexo &i_);
+		Complexo Divisao(Complexo &i_);
+		Complexo Multiplicacao(Complexo &i_);
+		Complexo PolarParaRetangular(float magnitude, float angulo);
+		void CalcularTheta(Complexo &i_, float &theta1, float &theta2, float &raiz_1, float &raiz_2);
 		//FIM - Definição Complementar -------
 	public:
 		//INICIO - Definição base ------------
@@ -42,8 +46,6 @@ class Complexo {
 		/*Aos critérios do aluno
 		 *adicionar aqui
 		 */
-		float getA();
-		float getB();
 		//FIM - Definição Complementar -------
 		
 

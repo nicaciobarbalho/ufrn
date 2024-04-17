@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
 	
-	Complexo comp = Complexo(10.0, 12.0);
-	Complexo operador = Complexo(2.0, 3.0);
+	Complexo comp = Complexo(20.0, -4.0);
+	Complexo operador = Complexo(3.0, 2.0);
 
 	cout << "Valores de entrada:" << endl;
 	comp.imprimir();
