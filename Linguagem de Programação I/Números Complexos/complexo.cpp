@@ -48,13 +48,13 @@ Complexo Complexo::pow(int i_){
 Complexo Complexo::PolarParaRetangular(float magnitude, float angulo){
 
 	float real = magnitude * cos(angulo);
-    float img = magnitude * sin(angulo);
+	float img = magnitude * sin(angulo);
 
 	return Complexo(real, img);
 }
 
 void Complexo::CalcularTheta(Complexo &i_, float &theta1, float &theta2, float &raiz_1, float &raiz_2) {
-	
+
 	raiz_1 = sqrt(a * a + b * b);
     raiz_2 = sqrt(i_.a * i_.a + i_.b * i_.b);
     theta1 = atan2(b, a);
